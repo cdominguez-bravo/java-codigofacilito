@@ -1,11 +1,12 @@
 import java.util.Scanner;
+import java.util.Vector;
 
 public class Main {
 
   /**INICIO: Curso estructura de datos - seccion arreglo como parametro -> https://codigofacilito.com/videos/arreglo-como-parametro
    * **/
 
-  public static void modificar(int x){
+  /*public static void modificar(int x){
     x = 2;
     System.out.println("metodo modificar - "+x);
   }
@@ -16,11 +17,33 @@ public class Main {
     modificar(x);
     System.out.println(x);
 
-  }
+  }*/
   /**FIN: Curso estructura de datos - seccion arreglo como parametro
-     * **/
+   * **/
 
-    //arreglo de una dimension
+
+  /**
+   * INICIO: Curso estructura de datos - Vectores -> https://codigofacilito.com/videos/vectores
+   **/
+
+
+  public static void main(String[] args) {
+
+    Vector vector = new Vector(20);
+    vector.add("h");
+    vector.add("hola");
+    vector.insertElementAt("jj", 1);
+    System.out.println(vector);
+    vector.remove("h");
+    System.out.println(vector);
+    System.out.println(vector.elementAt(0));
+
+  }
+  /**FIN: Curso estructura de datos - seccion Vectores
+   * **/
+
+  // OTRAS SECCIONES ANTERIORES
+  //arreglo de una dimension
     /*
     int arreglo[] = new int[10];
     arreglo[4] = 9;
@@ -30,7 +53,7 @@ public class Main {
     System.out.println(arreglo.length);
     */
 
-    //arreglo de 2 dimensiones
+  //arreglo de 2 dimensiones
 
     /*
     int matriz [][] = new int [3][3];
@@ -60,7 +83,7 @@ public class Main {
 
     */
 
-    //int x
+  //int x
 
 
 }
