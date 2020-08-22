@@ -21,13 +21,12 @@ public class Main {
   /**FIN: Curso estructura de datos - seccion arreglo como parametro
    * **/
 
-
   /**
-   * INICIO: Curso estructura de datos - Vectores -> https://codigofacilito.com/videos/vectores
+   * INICIO: Curso estructura de datos --> https://codigofacilito.com/videos/vectores
    **/
 
 
-  public static void main(String[] args) {
+ /* public static void main(String[] args) {
 
     Vector vector = new Vector(20);
     vector.add("h");
@@ -38,9 +37,63 @@ public class Main {
     System.out.println(vector);
     System.out.println(vector.elementAt(0));
 
-  }
-  /**FIN: Curso estructura de datos - seccion Vectores
+  }*/
+  /**FIN: Curso estructura de datos
    * **/
+
+  /**
+   * INICIO: Curso estructura de datos --> https://codigofacilito.com/videos/vectores-vs-arraylist
+   **/
+
+
+  /*public static void main(String[] args) {
+
+  }*/
+
+  /**
+   * FIN: Curso estructura de datos
+   **/
+
+  ////////// *** ===> INICIO: Curso estructura de datos --> https://codigofacilito.com/videos/vectores-vs-arraylist
+
+
+  /*public static void main(String[] args) {
+
+  }*/
+////////// *** ===> FIN: Curso estructura de datos
+
+  ////////// *** ===> INICIO: Curso estructura de datos --> https://codigofacilito.com/videos/listas-enlazadas
+
+
+  /*public static void main(String[] args) {
+
+  }*/
+
+////////// *** ===> FIN: Curso estructura de datos
+
+  ////////// *** ===> INICIO: Curso estructura de datos --> https://codigofacilito.com/videos/nodo
+
+
+  /*public static void main(String[] args) {
+
+  }*/
+
+////////// *** ===> FIN: Curso estructura de datos
+
+  ////////// *** ===> INICIO: Curso estructura de datos --> hhttps://codigofacilito.com/videos/mostrar-lista-enlazada
+  public static void main(String[] args) {
+    ListaEnlazada listaEnlazada = new ListaEnlazada();
+    listaEnlazada.agregarInicio(1);
+    listaEnlazada.agregarInicio(2);
+    listaEnlazada.agregarInicio(3);
+    listaEnlazada.agregarInicio(4);
+    listaEnlazada.agregarFinal(5);
+    listaEnlazada.eliminar(4);
+    listaEnlazada.verLista();
+
+  }
+
+////////// *** ===> FIN: Curso estructura de datos
 
   // OTRAS SECCIONES ANTERIORES
   //arreglo de una dimension
