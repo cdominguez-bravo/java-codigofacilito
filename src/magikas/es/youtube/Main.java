@@ -13,6 +13,7 @@ public class Main {
     Libro libro = new Libro(lista.obtener(1).getTitulo(), lista.obtener(1).getAutor(),
         lista.obtener(1).getIsbn());
     System.out.println(libro.getAutor());
+
   }
 
 
